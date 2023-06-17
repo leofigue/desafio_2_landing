@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+h1{
+    font-family: 'Mogra';
+    font-size: 40px;
+    color:#212121;
+}
+.header{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.subtitulo{
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    opacity: 50%;
+}
+body{
+    /* background-color:#DBDFAA; */
+    background-color:#f0f4c3;
+}
+div{
+    display: inline-block;
+}
+.bordeDerecho{
+    border-right: 1px solid white;
+}
+
+header{
+    width: 100%; 
+    max-width: 1024px;
+    height: 200px; 
+    margin: 0 auto;
+    background-image: url("../images/header_bike.png");
+    background-size: cover;
+}
+
+section{
+    width: 100%;
+    height: 200px;
+    max-width: 1024px;
+    margin: 15px auto;
+    /* background-color: #B3C890; */
+    background-color: #cddc39;
+    vertical-align: top;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    max-width: 1024px;
+    margin: 10px auto;
+    background-color: #757575;
+    color:white;
+}
+
+footer > div {
+    width: 33%;
+    text-align: center;
+
+}
+
+.imagen{
+
+    background-color: beige;
+}
+.imagenRight{
+    float: right;
+    background-color: beige;
+}
+
+.texto{
+    width: 60%;
+    background-color: #cddc39;
+    color: white; 
+    margin-left: 3em;
+    vertical-align: inherit;
+    padding-top: 60px;
+    color: #212121;
+}
+.izquierdo{
+    text-align: right;
+    margin-right: 3em;
+}
+
+
+img{
+    height: 200px;
+    width: 300px;
+}
+.rrss{
+    width: 24px;
+    height: 24px;
+}
+ul {
+    list-style: none;
+}
+h2, li, p{
+    color: #212121;
+}
